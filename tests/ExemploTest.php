@@ -1,8 +1,8 @@
 <?php
 
-namespace Reweb\Job\Backend\Tests;
+namespace BackendPHP\Tests;
 
-use Reweb\Job\Backend;
+use ..\BackendPHP;
 
 /**
  * Teste unit�rio da classe Reweb\Job\Backend\Exemplo

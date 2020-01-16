@@ -1,9 +1,17 @@
 <?php
 
-require_once __DIR__ . '/vendor/autoload.php';
 
-use Reweb\Job\Backend;
+require_once __DIR__ . '\Vendor\autoload.php';
+require_once __DIR__ . '\src\Banco.php';
 
-$exemplo = new Backend\Exemplo;
+use Backend\src\Banco;
 
-echo $exemplo->exemplo();
+$banco = new Banco;
+
+$banco->nome();
+
+$banco->depositoCorrente(300);
+
+$banco->saqueCC(7000);
+
+$banco->saquePoupanca(810);

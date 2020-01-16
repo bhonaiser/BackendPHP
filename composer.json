@@ -1,5 +1,5 @@
 {
-  "name": "reweb/projetos-especiais",
+  "name": "BackendPHP/projetos-especiais",
   "description": "Testes para vagas no setor de Projetos Especiais",
   "require": {
     "ext-pdo": "*"
@@ -10,8 +10,8 @@
   },
   "autoload": {
     "psr-4": {
-      "Reweb\\Job\\Backend\\": "src/",
-      "Reweb\\Job\\Backend\\Tests\\": "tests/"
+      "BackendPHP\\": "src/",
+      "BackendPHP\\Tests\\": "tests/"
     }
   }
 }
